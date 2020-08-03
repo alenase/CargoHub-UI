@@ -1,0 +1,14 @@
+.footer{
+    background-color: #ff8e09;
+    color: black;
+}
+.p1{
+    margin: 20px;
+    display: inline;
+    float: left;
+}
+.p2{
+    margin: 20px;
+    display: inline;
+    float: right;
+}

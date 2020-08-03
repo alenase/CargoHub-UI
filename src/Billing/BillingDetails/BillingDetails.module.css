@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.container
+{
+    color: #ff8e09;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    background: url("Card/card.png") no-repeat 100% 100%;
+    background-size: 350px 200px;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.button{
+    background-color: #ff8e09;
+    color: black;
+    border-radius: 7px;
+    font-weight: bolder;
+    padding: 0 5px;
+    border: none;
+}
+.button:active
+{
+    background-color: green;
+}
+
+.button:active, button:focus {
+    outline: none;
+}
+.button::-moz-focus-inner {
+    border: 0;
+}
+
+
+.modal_container
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.before_input_text{
+    display: flex;
+    align-items: center;
+}
+.input_style
+{
+    width: 600px;
+}
+.errorMessages
+{
+    display: flex;
+    justify-content: center;
+    color: red;
+}

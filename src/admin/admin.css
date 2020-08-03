@@ -1,0 +1,59 @@
+#new-hub-img {
+    background-image: url('./admin_resource/add2.jpeg');
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 6%;
+}
+
+.component {
+    height: 550px;
+    overflow-y: scroll;
+    margin: 5px 0px 0px 20px;
+    padding-right: 5px;
+    border-radius: 1%;
+}
+
+.component-small {
+    height: 300px;
+    overflow-y: scroll;
+    margin: 5px 0px 0px 20px;
+    padding-right: 5px;
+    border-radius: 1%;
+}
+
+.grey-bg {
+    background-color: #c2c2c2;
+}
+
+.csv-image {
+    margin: 3%;
+    width: 60%;
+    margin-left: 8%;
+    border: black solid 1px;
+}
+
+.csv-button {
+    width: 60%;
+    margin-left: 8%;
+    border: black solid 1px;
+}
+
+.csv-response {
+    margin-top: 20%;
+    margin-left: 1%;
+    font-size: 2em;
+    padding-left: 2%;
+    border-left: solid 5px white; 
+}
+
+
+
+.nav-link{
+    color: #2d2929;
+}
+
+.nav-link:hover{
+    background-color: darkorange;
+    color: #2d2929;
+}

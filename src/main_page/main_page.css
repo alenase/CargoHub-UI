@@ -1,0 +1,112 @@
+.Main-background {
+  background-color: #c2c2c2;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Div-Body {
+  background-color: #c2c2c2;
+  font: Microsoft Tai Le Bold;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.DivLocation1 {
+  float: left;
+  width: 50%;
+}
+
+.DivLocation2 {
+  float: right;
+  width: 50%;
+}
+
+.DivCargo {
+  padding-top: 20px;
+}
+
+.DivButton {
+  padding-left: 40%;
+  padding-right: 40%;
+
+  padding-top: 20px;
+}
+
+.h2 {
+  color: #2d2929;
+  font-weight: 10;
+  font-size: 24px;
+}
+
+.Title {
+  background-color: #2d2929;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  font: Microsoft Tai Le Bold;
+  color: #ff8e09;
+  font-weight: 10;
+  font-size: 20px;
+  align-items: center;
+}
+
+.Button-Search {
+  background-color: #ff8e09;
+  font-size: 25px;
+  color: #2d2929;
+  padding: 3px 15px;
+  margin: 15px;
+  cursor: pointer;
+  border: 0px;
+  font: Microsoft Tai Le Bold;
+  box-shadow: 0 0 5px #c2c2c2;
+}
+
+.Button-Search:hover {
+  box-shadow: 0 0 12px #2d2929;
+  -moz-box-shadow: 0 0 12px #2d2929;
+  -o-box-shadow: 0 0 12px #2d2929;
+  -ms-box-shadow: 0 0 12px #2d2929;
+  -webkit-box-shadow: 0 0 12px #2d2929;
+}
+
+.Input1 {
+  font: Microsoft Tai Le Bold;
+  font-size: 16px;
+  color: #2d2929;
+  width: 50%;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+
+.Input1:focus {
+  width: 70%;
+}
+
+.Input2 {
+  font: Microsoft Tai Le Bold;
+  font-size: 16px;
+  color: #2d2929;
+  width: 8%;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+
+.Input2:focus {
+  width: 10%;
+}
+
+.Form {
+  width: 100%;
+}

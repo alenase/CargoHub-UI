@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.button{
+    background-color: #ff8e09;
+    color: black;
+    border-radius: 7px;
+    font-weight: bolder;
+    padding: 0 5px;
+    border: none;
+}
+#close:active
+{
+    background-color: red;
+}
+#confirm:active{
+    background-color: green;
+}
+
+.button:active, button:focus {
+    outline: none;
+}
+.button::-moz-focus-inner {
+    border: 0;
+}
+
+
+.modal_container
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.before_input_text{
+    display: flex;
+    align-items: center;
+}
+.input_style
+{
+    width: 600px;
+}
+.errorMessages
+{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+/*.drop_down{*/
+/*    background-color: white;*/
+/*    padding: 7px;*/
+/*    color: black;*/
+/*}*/
+
+#drop_down_main_component{
+    background-color: #ff8e09;
+    color: black;
+    border: none;
+
+    /*border-radius: 5px;*/
+}
+#drop_down_main_component:active{
+    background-color: #ff8e09;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.drop_items{
+    background-color: #ff8e09;
+}
+.drop_item{
+    color: black;
+}
+.drop_item:hover
+{
+    background-color: #ff8e09;
+}
+.drop_menu_item{
+    display: flex;
+
+    text-align: left;
+}
+.span{
+    padding: 5px;
+    text-align: left;
+}
+.span:hover
+{
+    color: #2d2929;
+}
+.cargo_info
+{
+    display: flex;
+    justify-content: center;
+}

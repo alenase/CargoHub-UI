@@ -1,0 +1,63 @@
+.Div-Absolute {
+  top: 0;
+}
+
+.Main-header {
+  background-color: #ff8e09;
+  width: 100%;
+  height: 60px;
+  float: left;
+}
+
+.Logo {
+  padding-left: 20px;
+  height: 60px;
+  pointer-events: none;
+}
+
+.Div-Menu {
+  font: Microsoft Tai Le Bold;
+  padding-left: 2rem;
+  float: left;
+  padding-right: 2rem;
+  padding-top: 15px;
+}
+
+.Div-image {
+  float: left;
+}
+
+.h4 {
+  color: #2d2929;
+}
+
+.h4:hover {
+  color: #999999;
+}
+
+.a {
+  text-decoration: none;
+  color: #2d2929;
+}
+
+.a:hover {
+  text-decoration: none;
+  color: #999999;
+}
+
+.Div-Login1 {
+  float: right;
+}
+
+/*
+.Div-Login:hover{
+    background-color: #c2c2c2;
+}
+
+ */
+
+.Div-Login {
+  float: right;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}

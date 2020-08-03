@@ -1,0 +1,80 @@
+.Modal {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.Button {
+  background-color: #ff8e09;
+  font-size: 20px;
+  color: #2d2929;
+  padding: 3px 15px;
+  margin-top: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+  border: 0px;
+  font: Microsoft Tai Le Bold;
+  box-shadow: 0 0 5px #c2c2c2;
+  width: 10rem;
+  text-align: center;
+}
+
+.DivButton2 {
+  background-color: red;
+  width: 50%;
+}
+
+.h3 {
+  color: #2d2929;
+  font-weight: 10;
+  font-size: 16px;
+  font: Microsoft Tai Le Bold;
+  padding-right: 3rem;
+}
+
+.DivText {
+  align-content: center;
+  font: Microsoft Tai Le Bold;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20%;
+}
+
+.Input {
+  font: Microsoft Tai Le Bold;
+  font-size: 16px;
+  color: #2d2929;
+  width: 30%;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+
+.Input:focus {
+  border: 3px solid #2d2929;
+}
+
+.Span {
+  font: Microsoft Tai Le Bold;
+  font-size: 10px;
+  color: red;
+}
+
+.modal-button {
+  margin: 2px 0;
+  background-color: #ff8e09 !important;
+  border-color: #ff8e09 !important;
+  width: 100px;
+}
+
+.login-button {
+  margin: 5px 10px 0 0;
+  background-color: #2d2929 !important;
+  border-color: #2d2929 !important;
+}
+
+.user-info-menu {
+  padding: 15px;
+}
